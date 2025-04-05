@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className='wrapper'>
       <p>{count}</p>
-      <Link prefetch={false} href='/testpage'>
+      {/* <Link prefetch={false} href='/testpage'>
         TestPage
-      </Link>
+      </Link> */}
     </div>
   );
 }
